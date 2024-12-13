@@ -3,57 +3,57 @@ kind: Spicepod
 name: tpch
 datasets:
   - from: s3://spiceai-demo-datasets/tpch/customer/
-    name: customer
+    name: tpch.customer
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/lineitem/
-    name: lineitem
+    name: tpch.lineitem
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/nation/
-    name: nation
+    name: tpch.nation
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/orders/
-    name: orders
+    name: tpch.orders
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/part/
-    name: part
+    name: tpch.part
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/partsupp/
-    name: partsupp
+    name: tpch.partsupp
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/region/
-    name: region
+    name: tpch.region
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
 
   - from: s3://spiceai-demo-datasets/tpch/supplier/
-    name: supplier
+    name: tpch.supplier
     params:
       file_format: parquet
     acceleration:
-      enabled: false
+      enabled: true
