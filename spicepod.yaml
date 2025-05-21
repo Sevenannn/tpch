@@ -8,6 +8,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/lineitem/
     name: tpch.lineitem
@@ -15,6 +17,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/nation/
     name: tpch.nation
@@ -22,6 +26,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/orders/
     name: tpch.orders
@@ -29,6 +35,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/part/
     name: tpch.part
@@ -36,6 +44,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/partsupp/
     name: tpch.partsupp
@@ -43,6 +53,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/region/
     name: tpch.region
@@ -50,6 +62,8 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
 
   - from: s3://spiceai-demo-datasets/tpch/supplier/
     name: tpch.supplier
@@ -57,3 +71,5 @@ datasets:
       file_format: parquet
     acceleration:
       enabled: true
+      engine: duckdb
+      duckdb_memory_limit: '24GB'
