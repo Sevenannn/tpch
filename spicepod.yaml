@@ -9,6 +9,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/lineitem/
     name: tpch.lineitem
@@ -17,6 +18,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/nation/
     name: tpch.nation
@@ -25,6 +27,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/orders/
     name: tpch.orders
@@ -33,6 +36,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/part/
     name: tpch.part
@@ -41,6 +45,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/partsupp/
     name: tpch.partsupp
@@ -49,6 +54,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/region/
     name: tpch.region
@@ -57,6 +63,7 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
 
   - from: s3://spiceai-demo-datasets/tpch/supplier/
     name: tpch.supplier
@@ -65,3 +72,4 @@ datasets:
     acceleration:
       enabled: true
       engine: duckdb
+      mode: file
